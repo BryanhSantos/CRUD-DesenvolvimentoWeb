@@ -1,0 +1,57 @@
+create database escolatec;
+
+use escolatec;
+
+CREATE TABLE Cursos 
+( 
+ cargaHoraria INT,  
+ nomeCurso varchar(50),  
+ codigoCurso INT PRIMARY KEY auto_increment,  
+ descricao varchar(100)  
+); 
+
+CREATE TABLE Clientes 
+( 
+ codigoCliente INT PRIMARY KEY auto_increment,  
+ dataNascimento date,  
+ nomeCliente varchar (30),  
+ cpf varchar(15),  
+ email varchar(30),  
+ telefone varchar(15), 
+ senha varchar(10)
+); 
+
+CREATE TABLE Inscricao 
+( 
+ data date, 
+ dataCanc date,
+ codigoCurso INT,  
+ codigoCliente INT  
+); 
+
+ALTER TABLE Inscricao ADD FOREIGN KEY(codigoCurso) REFERENCES Cursos (codigoCurso);
+ALTER TABLE Inscricao ADD FOREIGN KEY(codigoCliente) REFERENCES Clientes (codigoCliente);
+
+drop database escolatec;
+drop table Inscricao;
+
+select * from Cursos;
+select * from Clientes;
+select * from Inscricao;
+
+select * from Inscricao where dataCanc is null;
+select * from Inscricao where dataCanc is not null;
+
+
+
+
+select * from Cursos inner join CLientes;
+
+delete from escolatec.clientes;
+delete from escolatec.cursos;
+
+delete from escolatec.cursos where codigoCurso = 11;
+
+INSERT INTO Cursos (cargaHoraria, nomeCurso, codigoCurso, descricao) VALUES (1000, 'Lógica de Programação', 001, 'Venha aprender LP');
+
+INSERT INTO Clientes (codigoCLiente, dataNascimento, nomeCliente, cpf, email, telefone) VALUES (1, 1999, 'Bryan', 45, 'bryanvsantos@gmail.com', 1688);
