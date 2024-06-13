@@ -18,10 +18,15 @@ Bem-vindo(a) ao **Readme de CRUD-DesenvolvimentoWeb**! Projeto de Desenvolviment
 ![Captura de tela 2024-06-13 171335](https://github.com/BryanhSantos/CRUD-DesenvolvimentoWeb/assets/161526305/10954ccf-7a2f-4f63-b0a1-1f517eecf98f)
 
 
-## Print da tela de INSCRIÇÃO DO ALUNO NO CURSOS
+## Print da tela de INSCRIÇÃO DO ALUNO NO CURSO
 
 ![Captura de tela 2024-06-13 171545](https://github.com/BryanhSantos/CRUD-DesenvolvimentoWeb/assets/161526305/b83f9899-593e-4d07-84f0-fc3bd475560d)
 ![Captura de tela 2024-06-13 171555](https://github.com/BryanhSantos/CRUD-DesenvolvimentoWeb/assets/161526305/7c66027d-6465-4b68-97aa-de70497e10fa)
+
+
+## Print da tela de CANCELAMENTO DE INSCRIÇÃO DO ALUNO NO CURSO
+
+![Captura de tela 2024-06-13 180011](https://github.com/BryanhSantos/CRUD-DesenvolvimentoWeb/assets/161526305/95f1fbe2-ebe8-46d1-9991-bdfee1ab6238)
 
 
 ## Print da tela de CONTATO
